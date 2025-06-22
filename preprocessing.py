@@ -2,7 +2,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import string
-
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
