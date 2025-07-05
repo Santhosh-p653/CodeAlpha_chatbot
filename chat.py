@@ -21,6 +21,18 @@ faqs = [
     {"question": "Can I cancel my order?", "answer": "Yes, you can cancel your order within 24 hours of placement."},
     {"question": "Is my data secure?", "answer": "Yes, we use encryption and follow strict privacy policies to protect your data."}
 ]
++[
+    {"question": "What is your return policy?", "answer": "You can return items within 7 days of delivery for a full refund."},
+    {"question": "Do you support international shipping?", "answer": "Currently, we only ship within India."},
+    {"question": "Can I track my order?", "answer": "Yes, use the tracking link provided in your confirmation email."},
+    {"question": "Is there a mobile app?", "answer": "Yes, download our app from the Google Play Store or Apple App Store."},
+    {"question": "Can I update my delivery address?", "answer": "Sure! You can update it from your profile settings before dispatch."},
+    {"question": "Do you offer bulk discounts?", "answer": "Absolutely! Reach out to support@example.com for bulk orders."},
+    {"question": "How do I delete my account?", "answer": "Contact support and submit a request to permanently delete your account."},
+    {"question": "What if I receive a damaged product?", "answer": "No worries—we’ll replace it free of charge if you notify us within 48 hours."},
+    {"question": "Are your products eco-friendly?", "answer": "Yes! Most of our packaging is recyclable, and we source sustainably."},
+    {"question": "Do I need an account to place an order?", "answer": "Nope! Guest checkout is available, but creating an account helps track orders."}
+]
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
